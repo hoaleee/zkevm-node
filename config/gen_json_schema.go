@@ -5,9 +5,9 @@ import (
 	"os"
 	"reflect"
 
-	"github.com/0xPolygonHermez/zkevm-node/config/types"
-	"github.com/0xPolygonHermez/zkevm-node/log"
 	"github.com/hoaleee/go-ethereum/common"
+	"github.com/hoaleee/zkevm-node/config/types"
+	"github.com/hoaleee/zkevm-node/log"
 	"github.com/invopop/jsonschema"
 	"github.com/urfave/cli/v2"
 )
@@ -35,7 +35,7 @@ type ConfigJsonSchemaGenerater[T any] struct {
 // NewNodeConfigJsonSchemaGenerater returns a new class for generating json-schema of the node config file (.toml)
 func NewNodeConfigJsonSchemaGenerater() ConfigJsonSchemaGenerater[Config] {
 	res := ConfigJsonSchemaGenerater[Config]{}
-	res.repoName = "github.com/0xPolygonHermez/zkevm-node"
+	res.repoName = "github.com/hoaleee/zkevm-node"
 	res.repoNameSuffix = "/config/config"
 	res.addCodeCommentsToSchema = true
 	res.pathSourceCode = "./"
@@ -52,7 +52,7 @@ func NewNodeConfigJsonSchemaGenerater() ConfigJsonSchemaGenerater[Config] {
 // NewNetworkConfigJsonSchemaGenerater returns a new class for generating json-schema of the network-custom config file (.json)
 func NewNetworkConfigJsonSchemaGenerater() ConfigJsonSchemaGenerater[GenesisFromJSON] {
 	res := ConfigJsonSchemaGenerater[GenesisFromJSON]{}
-	res.repoName = "github.com/0xPolygonHermez/zkevm-node"
+	res.repoName = "github.com/hoaleee/zkevm-node"
 	res.repoNameSuffix = "/config/config"
 	res.addCodeCommentsToSchema = true
 	res.pathSourceCode = "./"

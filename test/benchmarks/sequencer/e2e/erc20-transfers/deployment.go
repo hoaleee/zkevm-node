@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/0xPolygonHermez/zkevm-node/test/contracts/bin/ERC20"
-	"github.com/0xPolygonHermez/zkevm-node/test/operations"
 	"github.com/hoaleee/go-ethereum/accounts/abi/bind"
 	"github.com/hoaleee/go-ethereum/core/types"
 	"github.com/hoaleee/go-ethereum/ethclient"
+	"github.com/hoaleee/zkevm-node/test/contracts/bin/ERC20"
+	"github.com/hoaleee/zkevm-node/test/operations"
 )
 
 const (

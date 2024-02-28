@@ -6,9 +6,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/0xPolygonHermez/zkevm-node/hex"
-	"github.com/0xPolygonHermez/zkevm-node/state"
 	"github.com/google/uuid"
+	"github.com/hoaleee/zkevm-node/hex"
+	"github.com/hoaleee/zkevm-node/state"
 )
 
 // ErrNotFound represent a not found error.

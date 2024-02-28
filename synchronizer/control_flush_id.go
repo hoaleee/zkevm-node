@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/0xPolygonHermez/zkevm-node/event"
-	"github.com/0xPolygonHermez/zkevm-node/log"
+	"github.com/hoaleee/zkevm-node/event"
+	"github.com/hoaleee/zkevm-node/log"
 	"github.com/jackc/pgx/v4"
 )
 

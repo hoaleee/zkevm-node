@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/0xPolygonHermez/zkevm-node/test/scripts/cmd/dependencies"
+	"github.com/hoaleee/zkevm-node/test/scripts/cmd/dependencies"
 	"github.com/urfave/cli/v2"
 )
 

@@ -11,10 +11,10 @@ import (
 	"github.com/0xPolygon/cdk-data-availability/client"
 	jTypes "github.com/0xPolygon/cdk-data-availability/rpc"
 	daTypes "github.com/0xPolygon/cdk-data-availability/types"
-	ethman "github.com/0xPolygonHermez/zkevm-node/etherman"
-	"github.com/0xPolygonHermez/zkevm-node/etherman/types"
-	"github.com/0xPolygonHermez/zkevm-node/log"
 	"github.com/hoaleee/go-ethereum/common"
+	ethman "github.com/hoaleee/zkevm-node/etherman"
+	"github.com/hoaleee/zkevm-node/etherman/types"
+	"github.com/hoaleee/zkevm-node/log"
 )
 
 type signatureMsg struct {

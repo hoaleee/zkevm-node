@@ -6,12 +6,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/0xPolygonHermez/zkevm-node/log"
-	"github.com/0xPolygonHermez/zkevm-node/test/contracts/bin/HasOpCode"
-	"github.com/0xPolygonHermez/zkevm-node/test/operations"
 	"github.com/hoaleee/go-ethereum"
 	"github.com/hoaleee/go-ethereum/common"
 	"github.com/hoaleee/go-ethereum/core/types"
+	"github.com/hoaleee/zkevm-node/log"
+	"github.com/hoaleee/zkevm-node/test/contracts/bin/HasOpCode"
+	"github.com/hoaleee/zkevm-node/test/operations"
 	"github.com/stretchr/testify/require"
 )
 

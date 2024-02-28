@@ -5,9 +5,9 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/0xPolygonHermez/zkevm-node/state"
 	"github.com/hoaleee/go-ethereum/common"
 	"github.com/hoaleee/go-ethereum/core/types"
+	"github.com/hoaleee/zkevm-node/state"
 	"github.com/jackc/pgx/v4"
 )
 

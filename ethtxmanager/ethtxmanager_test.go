@@ -8,12 +8,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/0xPolygonHermez/zkevm-node/config/types"
-	"github.com/0xPolygonHermez/zkevm-node/state"
-	"github.com/0xPolygonHermez/zkevm-node/test/dbutils"
 	"github.com/hoaleee/go-ethereum"
 	"github.com/hoaleee/go-ethereum/common"
 	ethTypes "github.com/hoaleee/go-ethereum/core/types"
+	"github.com/hoaleee/zkevm-node/config/types"
+	"github.com/hoaleee/zkevm-node/state"
+	"github.com/hoaleee/zkevm-node/test/dbutils"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 )

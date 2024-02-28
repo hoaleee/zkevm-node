@@ -7,15 +7,15 @@ import (
 
 	common "github.com/hoaleee/go-ethereum/common"
 
-	executor "github.com/0xPolygonHermez/zkevm-node/state/runtime/executor"
+	executor "github.com/hoaleee/zkevm-node/state/runtime/executor"
 
-	metrics "github.com/0xPolygonHermez/zkevm-node/state/metrics"
+	metrics "github.com/hoaleee/zkevm-node/state/metrics"
 
 	mock "github.com/stretchr/testify/mock"
 
 	pgx "github.com/jackc/pgx/v4"
 
-	state "github.com/0xPolygonHermez/zkevm-node/state"
+	state "github.com/hoaleee/zkevm-node/state"
 
 	types "github.com/hoaleee/go-ethereum/core/types"
 )

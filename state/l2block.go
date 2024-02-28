@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/0xPolygonHermez/zkevm-node/log"
 	"github.com/hoaleee/go-ethereum/core/types"
+	"github.com/hoaleee/zkevm-node/log"
 )
 
 const newL2BlocksCheckInterval = 200 * time.Millisecond

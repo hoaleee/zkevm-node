@@ -3,11 +3,11 @@ package jsonrpc
 import (
 	"context"
 
-	"github.com/0xPolygonHermez/zkevm-node/jsonrpc/types"
-	"github.com/0xPolygonHermez/zkevm-node/pool"
-	"github.com/0xPolygonHermez/zkevm-node/state"
 	"github.com/hoaleee/go-ethereum/common"
 	ethTypes "github.com/hoaleee/go-ethereum/core/types"
+	"github.com/hoaleee/zkevm-node/jsonrpc/types"
+	"github.com/hoaleee/zkevm-node/pool"
+	"github.com/hoaleee/zkevm-node/state"
 )
 
 func checkPolicy(ctx context.Context, p types.PoolInterface, input string) error {

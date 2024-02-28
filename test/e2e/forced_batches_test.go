@@ -6,20 +6,20 @@ import (
 	"testing"
 	"time"
 
-	"github.com/0xPolygonHermez/zkevm-node/config"
+	"github.com/hoaleee/zkevm-node/config"
 
 	"github.com/hoaleee/go-ethereum/core/types"
 
-	"github.com/0xPolygonHermez/zkevm-node/etherman/smartcontracts/polygonzkevm"
-	"github.com/0xPolygonHermez/zkevm-node/etherman/smartcontracts/polygonzkevmglobalexitroot"
-	"github.com/0xPolygonHermez/zkevm-node/log"
-	"github.com/0xPolygonHermez/zkevm-node/state"
-	"github.com/0xPolygonHermez/zkevm-node/test/constants"
-	"github.com/0xPolygonHermez/zkevm-node/test/operations"
 	"github.com/hoaleee/go-ethereum"
 	"github.com/hoaleee/go-ethereum/accounts/abi/bind"
 	"github.com/hoaleee/go-ethereum/common"
 	"github.com/hoaleee/go-ethereum/ethclient"
+	"github.com/hoaleee/zkevm-node/etherman/smartcontracts/polygonzkevm"
+	"github.com/hoaleee/zkevm-node/etherman/smartcontracts/polygonzkevmglobalexitroot"
+	"github.com/hoaleee/zkevm-node/log"
+	"github.com/hoaleee/zkevm-node/state"
+	"github.com/hoaleee/zkevm-node/test/constants"
+	"github.com/hoaleee/zkevm-node/test/operations"
 	"github.com/stretchr/testify/require"
 )
 

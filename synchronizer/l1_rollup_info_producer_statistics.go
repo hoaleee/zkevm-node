@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/0xPolygonHermez/zkevm-node/synchronizer/metrics"
+	"github.com/hoaleee/zkevm-node/synchronizer/metrics"
 )
 
 // This object keep track of the statistics of the process, to be able to estimate the ETA

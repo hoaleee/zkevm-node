@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/0xPolygonHermez/zkevm-node/log"
-	"github.com/0xPolygonHermez/zkevm-node/test/operations"
-	uniswap "github.com/0xPolygonHermez/zkevm-node/test/scripts/uniswap/pkg"
 	"github.com/hoaleee/go-ethereum/ethclient"
+	"github.com/hoaleee/zkevm-node/log"
+	"github.com/hoaleee/zkevm-node/test/operations"
+	uniswap "github.com/hoaleee/zkevm-node/test/scripts/uniswap/pkg"
 )
 
 const (

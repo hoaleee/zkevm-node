@@ -3,8 +3,8 @@ package test
 import (
 	"testing"
 
-	"github.com/0xPolygonHermez/zkevm-node/state"
 	"github.com/hoaleee/go-ethereum/common"
+	"github.com/hoaleee/zkevm-node/state"
 	"github.com/stretchr/testify/assert"
 )
 

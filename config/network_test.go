@@ -5,10 +5,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/0xPolygonHermez/zkevm-node/etherman"
-	"github.com/0xPolygonHermez/zkevm-node/merkletree"
-	"github.com/0xPolygonHermez/zkevm-node/state"
 	"github.com/hoaleee/go-ethereum/common"
+	"github.com/hoaleee/zkevm-node/etherman"
+	"github.com/hoaleee/zkevm-node/merkletree"
+	"github.com/hoaleee/zkevm-node/state"
 	"github.com/stretchr/testify/require"
 	"github.com/urfave/cli/v2"
 )

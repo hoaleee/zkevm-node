@@ -6,12 +6,12 @@ import (
 	"errors"
 	"time"
 
-	"github.com/0xPolygonHermez/zkevm-node/db"
-	"github.com/0xPolygonHermez/zkevm-node/hex"
-	"github.com/0xPolygonHermez/zkevm-node/pool"
-	"github.com/0xPolygonHermez/zkevm-node/state"
 	"github.com/hoaleee/go-ethereum/common"
 	"github.com/hoaleee/go-ethereum/core/types"
+	"github.com/hoaleee/zkevm-node/db"
+	"github.com/hoaleee/zkevm-node/hex"
+	"github.com/hoaleee/zkevm-node/pool"
+	"github.com/hoaleee/zkevm-node/state"
 	"github.com/jackc/pgx/v4"
 	"github.com/jackc/pgx/v4/pgxpool"
 )

@@ -6,19 +6,19 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/0xPolygonHermez/zkevm-node/encoding"
-	"github.com/0xPolygonHermez/zkevm-node/hex"
-	"github.com/0xPolygonHermez/zkevm-node/log"
-	"github.com/0xPolygonHermez/zkevm-node/test/contracts/bin/Counter"
-	"github.com/0xPolygonHermez/zkevm-node/test/contracts/bin/ERC20"
-	"github.com/0xPolygonHermez/zkevm-node/test/contracts/bin/EmitLog"
-	"github.com/0xPolygonHermez/zkevm-node/test/contracts/bin/Storage"
-	"github.com/0xPolygonHermez/zkevm-node/test/operations"
 	"github.com/hoaleee/go-ethereum"
 	"github.com/hoaleee/go-ethereum/accounts/abi/bind"
 	"github.com/hoaleee/go-ethereum/common"
 	"github.com/hoaleee/go-ethereum/core/types"
 	"github.com/hoaleee/go-ethereum/ethclient"
+	"github.com/hoaleee/zkevm-node/encoding"
+	"github.com/hoaleee/zkevm-node/hex"
+	"github.com/hoaleee/zkevm-node/log"
+	"github.com/hoaleee/zkevm-node/test/contracts/bin/Counter"
+	"github.com/hoaleee/zkevm-node/test/contracts/bin/ERC20"
+	"github.com/hoaleee/zkevm-node/test/contracts/bin/EmitLog"
+	"github.com/hoaleee/zkevm-node/test/contracts/bin/Storage"
+	"github.com/hoaleee/zkevm-node/test/operations"
 )
 
 const (

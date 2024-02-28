@@ -1,6 +1,6 @@
 package ethtxmanager
 
-import "github.com/0xPolygonHermez/zkevm-node/config/types"
+import "github.com/hoaleee/zkevm-node/config/types"
 
 // Config is configuration for ethereum transaction manager
 type Config struct {

@@ -8,7 +8,7 @@ import (
 
 	common "github.com/hoaleee/go-ethereum/common"
 
-	etherman "github.com/0xPolygonHermez/zkevm-node/etherman"
+	etherman "github.com/hoaleee/zkevm-node/etherman"
 
 	mock "github.com/stretchr/testify/mock"
 

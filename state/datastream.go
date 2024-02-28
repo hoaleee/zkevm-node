@@ -5,8 +5,8 @@ import (
 	"encoding/binary"
 
 	"github.com/0xPolygonHermez/zkevm-data-streamer/datastreamer"
-	"github.com/0xPolygonHermez/zkevm-node/log"
 	"github.com/hoaleee/go-ethereum/common"
+	"github.com/hoaleee/zkevm-node/log"
 	"github.com/jackc/pgx/v4"
 )
 

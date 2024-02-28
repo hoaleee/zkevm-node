@@ -9,9 +9,9 @@ import (
 
 	mock "github.com/stretchr/testify/mock"
 
-	pool "github.com/0xPolygonHermez/zkevm-node/pool"
+	pool "github.com/hoaleee/zkevm-node/pool"
 
-	state "github.com/0xPolygonHermez/zkevm-node/state"
+	state "github.com/hoaleee/zkevm-node/state"
 
 	time "time"
 )

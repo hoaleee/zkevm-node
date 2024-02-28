@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/0xPolygonHermez/zkevm-node/pool"
 	"github.com/hoaleee/go-ethereum/common"
+	"github.com/hoaleee/zkevm-node/pool"
 	"github.com/jackc/pgx/v4"
 )
 

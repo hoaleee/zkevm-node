@@ -8,7 +8,7 @@ import (
 
 	common "github.com/hoaleee/go-ethereum/common"
 
-	ethtxmanager "github.com/0xPolygonHermez/zkevm-node/ethtxmanager"
+	ethtxmanager "github.com/hoaleee/zkevm-node/ethtxmanager"
 
 	mock "github.com/stretchr/testify/mock"
 

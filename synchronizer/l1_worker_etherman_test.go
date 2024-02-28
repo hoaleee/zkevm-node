@@ -9,10 +9,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/0xPolygonHermez/zkevm-node/etherman"
-	"github.com/0xPolygonHermez/zkevm-node/log"
 	"github.com/hoaleee/go-ethereum/common"
 	ethTypes "github.com/hoaleee/go-ethereum/core/types"
+	"github.com/hoaleee/zkevm-node/etherman"
+	"github.com/hoaleee/zkevm-node/log"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 )

@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/0xPolygonHermez/zkevm-node/etherman"
 	"github.com/hoaleee/go-ethereum/common"
 	types "github.com/hoaleee/go-ethereum/core/types"
+	"github.com/hoaleee/zkevm-node/etherman"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 )

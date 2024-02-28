@@ -22,13 +22,13 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/0xPolygonHermez/zkevm-node/state/runtime/fakevm"
-	jsassets "github.com/0xPolygonHermez/zkevm-node/state/runtime/instrumentation/js/internal/tracers"
-	"github.com/0xPolygonHermez/zkevm-node/state/runtime/instrumentation/tracers"
 	"github.com/dop251/goja"
 	"github.com/hoaleee/go-ethereum/common"
 	"github.com/hoaleee/go-ethereum/common/hexutil"
 	"github.com/hoaleee/go-ethereum/crypto"
+	"github.com/hoaleee/zkevm-node/state/runtime/fakevm"
+	jsassets "github.com/hoaleee/zkevm-node/state/runtime/instrumentation/js/internal/tracers"
+	"github.com/hoaleee/zkevm-node/state/runtime/instrumentation/tracers"
 )
 
 var assetTracers = make(map[string]string)

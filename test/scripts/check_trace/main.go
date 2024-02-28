@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/0xPolygonHermez/zkevm-node/jsonrpc/client"
 	"github.com/hoaleee/go-ethereum/common"
 	"github.com/hoaleee/go-ethereum/ethclient"
+	"github.com/hoaleee/zkevm-node/jsonrpc/client"
 )
 
 const (

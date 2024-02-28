@@ -5,17 +5,17 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/0xPolygonHermez/zkevm-node/etherman/smartcontracts/cdkdatacommittee"
-	"github.com/0xPolygonHermez/zkevm-node/etherman/smartcontracts/matic"
-	"github.com/0xPolygonHermez/zkevm-node/etherman/smartcontracts/mockverifier"
-	"github.com/0xPolygonHermez/zkevm-node/etherman/smartcontracts/polygonzkevm"
-	"github.com/0xPolygonHermez/zkevm-node/etherman/smartcontracts/polygonzkevmbridge"
-	"github.com/0xPolygonHermez/zkevm-node/etherman/smartcontracts/polygonzkevmglobalexitroot"
 	"github.com/hoaleee/go-ethereum/accounts/abi/bind"
 	"github.com/hoaleee/go-ethereum/accounts/abi/bind/backends"
 	"github.com/hoaleee/go-ethereum/common"
 	"github.com/hoaleee/go-ethereum/core"
 	"github.com/hoaleee/go-ethereum/crypto"
+	"github.com/hoaleee/zkevm-node/etherman/smartcontracts/cdkdatacommittee"
+	"github.com/hoaleee/zkevm-node/etherman/smartcontracts/matic"
+	"github.com/hoaleee/zkevm-node/etherman/smartcontracts/mockverifier"
+	"github.com/hoaleee/zkevm-node/etherman/smartcontracts/polygonzkevm"
+	"github.com/hoaleee/zkevm-node/etherman/smartcontracts/polygonzkevmbridge"
+	"github.com/hoaleee/zkevm-node/etherman/smartcontracts/polygonzkevmglobalexitroot"
 )
 
 // NewSimulatedEtherman creates an etherman that uses a simulated blockchain. It's important to notice that the ChainID of the auth

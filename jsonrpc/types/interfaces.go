@@ -5,11 +5,11 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/0xPolygonHermez/zkevm-node/pool"
-	"github.com/0xPolygonHermez/zkevm-node/state"
-	"github.com/0xPolygonHermez/zkevm-node/state/runtime"
 	"github.com/hoaleee/go-ethereum/common"
 	"github.com/hoaleee/go-ethereum/core/types"
+	"github.com/hoaleee/zkevm-node/pool"
+	"github.com/hoaleee/zkevm-node/state"
+	"github.com/hoaleee/zkevm-node/state/runtime"
 	"github.com/jackc/pgx/v4"
 )
 

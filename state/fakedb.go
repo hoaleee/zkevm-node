@@ -4,10 +4,10 @@ import (
 	"context"
 	"math/big"
 
-	"github.com/0xPolygonHermez/zkevm-node/log"
 	"github.com/hoaleee/go-ethereum/common"
 	"github.com/hoaleee/go-ethereum/core/types"
 	"github.com/hoaleee/go-ethereum/params"
+	"github.com/hoaleee/zkevm-node/log"
 )
 
 // FakeDB is the implementation of the fakeevm.FakeDB interface

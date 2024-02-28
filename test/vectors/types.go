@@ -4,8 +4,8 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/0xPolygonHermez/zkevm-node/encoding"
-	"github.com/0xPolygonHermez/zkevm-node/hex"
+	"github.com/hoaleee/zkevm-node/encoding"
+	"github.com/hoaleee/zkevm-node/hex"
 )
 
 type argBigInt struct {

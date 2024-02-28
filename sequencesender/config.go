@@ -1,8 +1,8 @@
 package sequencesender
 
 import (
-	"github.com/0xPolygonHermez/zkevm-node/config/types"
 	"github.com/hoaleee/go-ethereum/common"
+	"github.com/hoaleee/zkevm-node/config/types"
 )
 
 // Config represents the configuration of a sequence sender

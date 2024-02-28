@@ -7,13 +7,13 @@ import (
 	"strings"
 	"time"
 
-	metricsLib "github.com/0xPolygonHermez/zkevm-node/metrics"
-	"github.com/0xPolygonHermez/zkevm-node/sequencer/metrics"
-	metricsState "github.com/0xPolygonHermez/zkevm-node/state/metrics"
-	"github.com/0xPolygonHermez/zkevm-node/test/benchmarks/sequencer/common/params"
-	"github.com/0xPolygonHermez/zkevm-node/test/testutils"
 	"github.com/hoaleee/go-ethereum/core/types"
 	"github.com/hoaleee/go-ethereum/ethclient"
+	metricsLib "github.com/hoaleee/zkevm-node/metrics"
+	"github.com/hoaleee/zkevm-node/sequencer/metrics"
+	metricsState "github.com/hoaleee/zkevm-node/state/metrics"
+	"github.com/hoaleee/zkevm-node/test/benchmarks/sequencer/common/params"
+	"github.com/hoaleee/zkevm-node/test/testutils"
 )
 
 const (

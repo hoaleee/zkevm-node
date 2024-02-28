@@ -5,9 +5,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/0xPolygonHermez/zkevm-node/pool"
-	"github.com/0xPolygonHermez/zkevm-node/state"
 	"github.com/hoaleee/go-ethereum/common"
+	"github.com/hoaleee/zkevm-node/pool"
+	"github.com/hoaleee/zkevm-node/state"
 	"github.com/stretchr/testify/assert"
 )
 

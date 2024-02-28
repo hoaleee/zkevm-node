@@ -4,10 +4,10 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/0xPolygonHermez/zkevm-node/log"
-	"github.com/0xPolygonHermez/zkevm-node/state"
-	"github.com/0xPolygonHermez/zkevm-node/state/runtime"
 	"github.com/hoaleee/go-ethereum/common"
+	"github.com/hoaleee/zkevm-node/log"
+	"github.com/hoaleee/zkevm-node/state"
+	"github.com/hoaleee/zkevm-node/state/runtime"
 )
 
 // addrQueue is a struct that stores the ready and notReady txs for a specific from address

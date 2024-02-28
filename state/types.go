@@ -7,10 +7,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/0xPolygonHermez/zkevm-node/state/metrics"
-	"github.com/0xPolygonHermez/zkevm-node/state/runtime/instrumentation"
 	"github.com/hoaleee/go-ethereum/common"
 	"github.com/hoaleee/go-ethereum/core/types"
+	"github.com/hoaleee/zkevm-node/state/metrics"
+	"github.com/hoaleee/zkevm-node/state/runtime/instrumentation"
 )
 
 // ProcessRequest represents the request of a batch process.

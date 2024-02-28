@@ -8,12 +8,12 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/0xPolygonHermez/zkevm-node/etherman"
-	"github.com/0xPolygonHermez/zkevm-node/jsonrpc/types"
-	"github.com/0xPolygonHermez/zkevm-node/state"
 	"github.com/hoaleee/go-ethereum/common"
 	ethTypes "github.com/hoaleee/go-ethereum/core/types"
 	"github.com/hoaleee/go-ethereum/crypto"
+	"github.com/hoaleee/zkevm-node/etherman"
+	"github.com/hoaleee/zkevm-node/jsonrpc/types"
+	"github.com/hoaleee/zkevm-node/state"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

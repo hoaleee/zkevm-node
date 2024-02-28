@@ -3,8 +3,8 @@ package synchronizer
 import (
 	"context"
 	"fmt"
-	"github.com/0xPolygonHermez/zkevm-node/hex"
-	"github.com/0xPolygonHermez/zkevm-node/log"
+	"github.com/hoaleee/zkevm-node/hex"
+	"github.com/hoaleee/zkevm-node/log"
 	"github.com/rollkit/go-da"
 )
 

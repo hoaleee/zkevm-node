@@ -2,7 +2,7 @@ package sequencer
 
 import (
 	"github.com/0xPolygonHermez/zkevm-data-streamer/log"
-	"github.com/0xPolygonHermez/zkevm-node/config/types"
+	"github.com/hoaleee/zkevm-node/config/types"
 )
 
 // Config represents the configuration of a sequencer

@@ -7,12 +7,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/0xPolygonHermez/zkevm-node/db"
-	"github.com/0xPolygonHermez/zkevm-node/pool/pgpoolstorage"
-	"github.com/0xPolygonHermez/zkevm-node/test/benchmarks/sequencer/common/params"
 	"github.com/hoaleee/go-ethereum/accounts/abi/bind"
 	"github.com/hoaleee/go-ethereum/crypto"
 	"github.com/hoaleee/go-ethereum/ethclient"
+	"github.com/hoaleee/zkevm-node/db"
+	"github.com/hoaleee/zkevm-node/pool/pgpoolstorage"
+	"github.com/hoaleee/zkevm-node/test/benchmarks/sequencer/common/params"
 )
 
 var (

@@ -3,7 +3,7 @@ package metrics
 import (
 	"time"
 
-	"github.com/0xPolygonHermez/zkevm-node/metrics"
+	"github.com/hoaleee/zkevm-node/metrics"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

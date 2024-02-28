@@ -6,12 +6,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/0xPolygonHermez/zkevm-node/test/benchmarks/sequencer/common/transactions"
-	"github.com/0xPolygonHermez/zkevm-node/test/contracts/bin/ERC20"
-	uniswap "github.com/0xPolygonHermez/zkevm-node/test/scripts/uniswap/pkg"
 	"github.com/hoaleee/go-ethereum/accounts/abi/bind"
 	"github.com/hoaleee/go-ethereum/core/types"
 	"github.com/hoaleee/go-ethereum/ethclient"
+	"github.com/hoaleee/zkevm-node/test/benchmarks/sequencer/common/transactions"
+	"github.com/hoaleee/zkevm-node/test/contracts/bin/ERC20"
+	uniswap "github.com/hoaleee/zkevm-node/test/scripts/uniswap/pkg"
 )
 
 var (

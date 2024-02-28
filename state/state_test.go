@@ -14,23 +14,6 @@ import (
 	"testing"
 	"time"
 
-	"github.com/0xPolygonHermez/zkevm-node/db"
-	"github.com/0xPolygonHermez/zkevm-node/encoding"
-	"github.com/0xPolygonHermez/zkevm-node/event"
-	"github.com/0xPolygonHermez/zkevm-node/event/nileventstorage"
-	"github.com/0xPolygonHermez/zkevm-node/hex"
-	"github.com/0xPolygonHermez/zkevm-node/log"
-	"github.com/0xPolygonHermez/zkevm-node/merkletree"
-	"github.com/0xPolygonHermez/zkevm-node/merkletree/hashdb"
-	state "github.com/0xPolygonHermez/zkevm-node/state"
-	"github.com/0xPolygonHermez/zkevm-node/state/metrics"
-	"github.com/0xPolygonHermez/zkevm-node/state/runtime"
-	"github.com/0xPolygonHermez/zkevm-node/state/runtime/executor"
-	"github.com/0xPolygonHermez/zkevm-node/test/constants"
-	"github.com/0xPolygonHermez/zkevm-node/test/contracts/bin/Counter"
-	"github.com/0xPolygonHermez/zkevm-node/test/dbutils"
-	"github.com/0xPolygonHermez/zkevm-node/test/operations"
-	"github.com/0xPolygonHermez/zkevm-node/test/testutils"
 	"github.com/google/uuid"
 	"github.com/hoaleee/go-ethereum/accounts/abi/bind"
 	"github.com/hoaleee/go-ethereum/common"
@@ -39,6 +22,23 @@ import (
 	"github.com/hoaleee/go-ethereum/ethclient"
 	"github.com/hoaleee/go-ethereum/rlp"
 	"github.com/hoaleee/go-ethereum/trie"
+	"github.com/hoaleee/zkevm-node/db"
+	"github.com/hoaleee/zkevm-node/encoding"
+	"github.com/hoaleee/zkevm-node/event"
+	"github.com/hoaleee/zkevm-node/event/nileventstorage"
+	"github.com/hoaleee/zkevm-node/hex"
+	"github.com/hoaleee/zkevm-node/log"
+	"github.com/hoaleee/zkevm-node/merkletree"
+	"github.com/hoaleee/zkevm-node/merkletree/hashdb"
+	state "github.com/hoaleee/zkevm-node/state"
+	"github.com/hoaleee/zkevm-node/state/metrics"
+	"github.com/hoaleee/zkevm-node/state/runtime"
+	"github.com/hoaleee/zkevm-node/state/runtime/executor"
+	"github.com/hoaleee/zkevm-node/test/constants"
+	"github.com/hoaleee/zkevm-node/test/contracts/bin/Counter"
+	"github.com/hoaleee/zkevm-node/test/dbutils"
+	"github.com/hoaleee/zkevm-node/test/operations"
+	"github.com/hoaleee/zkevm-node/test/testutils"
 	"github.com/jackc/pgx/v4/pgxpool"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
@@ -1540,7 +1540,7 @@ func TestGenesisNewLeafType(t *testing.T) {
 // 	err = testState.ProcessAndStoreClosedBatch(ctx, processCtx, common.Hex2Bytes(tv.BatchL2Data), dbTx) // nolint:ineffassign,staticcheck
 // 	// TODO: actually check for nil err in ProcessAndStoreClosedBatch return value,
 // 	// currently blocked by the issue about the mismatched tx hashes described here
-// 	// https://github.com/0xPolygonHermez/zkevm-node/issues/1033
+// 	// https://github.com/hoaleee/zkevm-node/issues/1033
 // 	// require.NoError(t, err)
 
 // 	// TODO: currently the db tx is marked as invalid after the first error, once

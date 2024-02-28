@@ -3,7 +3,7 @@ package dependencies
 import (
 	"os"
 
-	"github.com/0xPolygonHermez/zkevm-node/log"
+	"github.com/hoaleee/zkevm-node/log"
 	"github.com/spf13/afero"
 )
 

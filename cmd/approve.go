@@ -5,10 +5,10 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/0xPolygonHermez/zkevm-node/config"
-	"github.com/0xPolygonHermez/zkevm-node/encoding"
-	"github.com/0xPolygonHermez/zkevm-node/log"
 	"github.com/hoaleee/go-ethereum/common"
+	"github.com/hoaleee/zkevm-node/config"
+	"github.com/hoaleee/zkevm-node/encoding"
+	"github.com/hoaleee/zkevm-node/log"
 	"github.com/urfave/cli/v2"
 )
 

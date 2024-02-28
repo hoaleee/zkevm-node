@@ -1,8 +1,8 @@
 package state
 
 import (
-	"github.com/0xPolygonHermez/zkevm-node/config/types"
-	"github.com/0xPolygonHermez/zkevm-node/db"
+	"github.com/hoaleee/zkevm-node/config/types"
+	"github.com/hoaleee/zkevm-node/db"
 )
 
 // Config is state config

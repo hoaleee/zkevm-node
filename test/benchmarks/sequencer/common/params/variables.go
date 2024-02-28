@@ -4,10 +4,10 @@ import (
 	"context"
 	"strings"
 
-	"github.com/0xPolygonHermez/zkevm-node/test/dbutils"
-	"github.com/0xPolygonHermez/zkevm-node/test/operations"
 	"github.com/hoaleee/go-ethereum/common"
 	"github.com/hoaleee/go-ethereum/crypto"
+	"github.com/hoaleee/zkevm-node/test/dbutils"
+	"github.com/hoaleee/zkevm-node/test/operations"
 )
 
 var (

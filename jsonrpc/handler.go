@@ -8,8 +8,8 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/0xPolygonHermez/zkevm-node/jsonrpc/types"
-	"github.com/0xPolygonHermez/zkevm-node/log"
+	"github.com/hoaleee/zkevm-node/jsonrpc/types"
+	"github.com/hoaleee/zkevm-node/log"
 )
 
 const (

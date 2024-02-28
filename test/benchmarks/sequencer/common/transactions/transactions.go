@@ -8,17 +8,17 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/0xPolygonHermez/zkevm-node/pool"
-	"github.com/0xPolygonHermez/zkevm-node/state"
+	"github.com/hoaleee/zkevm-node/pool"
+	"github.com/hoaleee/zkevm-node/state"
 
-	"github.com/0xPolygonHermez/zkevm-node/test/benchmarks/sequencer/common/params"
-	"github.com/0xPolygonHermez/zkevm-node/test/operations"
+	"github.com/hoaleee/zkevm-node/test/benchmarks/sequencer/common/params"
+	"github.com/hoaleee/zkevm-node/test/operations"
 
-	"github.com/0xPolygonHermez/zkevm-node/test/contracts/bin/ERC20"
-	"github.com/0xPolygonHermez/zkevm-node/test/scripts/uniswap/pkg"
 	"github.com/hoaleee/go-ethereum/accounts/abi/bind"
 	"github.com/hoaleee/go-ethereum/core/types"
 	"github.com/hoaleee/go-ethereum/ethclient"
+	"github.com/hoaleee/zkevm-node/test/contracts/bin/ERC20"
+	"github.com/hoaleee/zkevm-node/test/scripts/uniswap/pkg"
 )
 
 // SendAndWait sends a number of transactions and waits for them to be marked as pending in the pool

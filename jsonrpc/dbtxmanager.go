@@ -3,7 +3,7 @@ package jsonrpc
 import (
 	"context"
 
-	"github.com/0xPolygonHermez/zkevm-node/jsonrpc/types"
+	"github.com/hoaleee/zkevm-node/jsonrpc/types"
 	"github.com/jackc/pgx/v4"
 )
 

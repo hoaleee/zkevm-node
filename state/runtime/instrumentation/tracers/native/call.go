@@ -22,11 +22,11 @@ import (
 	"math/big"
 	"sync/atomic"
 
-	"github.com/0xPolygonHermez/zkevm-node/state/runtime/fakevm"
-	"github.com/0xPolygonHermez/zkevm-node/state/runtime/instrumentation/tracers"
 	"github.com/hoaleee/go-ethereum/accounts/abi"
 	"github.com/hoaleee/go-ethereum/common"
 	"github.com/hoaleee/go-ethereum/common/hexutil"
+	"github.com/hoaleee/zkevm-node/state/runtime/fakevm"
+	"github.com/hoaleee/zkevm-node/state/runtime/instrumentation/tracers"
 )
 
 //go:generate go run github.com/fjl/gencodec -type callFrame -field-override callFrameMarshaling -out gen_callframe_json.go

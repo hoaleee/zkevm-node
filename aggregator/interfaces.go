@@ -4,11 +4,11 @@ import (
 	"context"
 	"math/big"
 
-	"github.com/0xPolygonHermez/zkevm-node/aggregator/prover"
-	ethmanTypes "github.com/0xPolygonHermez/zkevm-node/etherman/types"
-	"github.com/0xPolygonHermez/zkevm-node/ethtxmanager"
-	"github.com/0xPolygonHermez/zkevm-node/state"
 	"github.com/hoaleee/go-ethereum/common"
+	"github.com/hoaleee/zkevm-node/aggregator/prover"
+	ethmanTypes "github.com/hoaleee/zkevm-node/etherman/types"
+	"github.com/hoaleee/zkevm-node/ethtxmanager"
+	"github.com/hoaleee/zkevm-node/state"
 	"github.com/jackc/pgx/v4"
 )
 

@@ -6,8 +6,8 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"github.com/0xPolygonHermez/zkevm-node"
 	"github.com/hermeznetwork/tracerr"
+	"github.com/hoaleee/zkevm-node"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )

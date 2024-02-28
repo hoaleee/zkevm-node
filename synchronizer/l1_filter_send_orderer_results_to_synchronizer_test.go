@@ -4,8 +4,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/0xPolygonHermez/zkevm-node/etherman"
 	types "github.com/hoaleee/go-ethereum/core/types"
+	"github.com/hoaleee/zkevm-node/etherman"
 	"github.com/stretchr/testify/require"
 )
 

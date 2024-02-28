@@ -5,8 +5,8 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/0xPolygonHermez/zkevm-node/pool"
 	"github.com/hoaleee/go-ethereum/core/types"
+	"github.com/hoaleee/zkevm-node/pool"
 	"github.com/jackc/pgx/v4"
 )
 

@@ -7,13 +7,13 @@ import (
 
 	"github.com/hoaleee/go-ethereum/core/types"
 
-	"github.com/0xPolygonHermez/zkevm-node/log"
-	"github.com/0xPolygonHermez/zkevm-node/test/contracts/bin/uniswap/v2/core/UniswapV2Factory"
-	"github.com/0xPolygonHermez/zkevm-node/test/contracts/bin/uniswap/v2/core/UniswapV2Pair"
-	"github.com/0xPolygonHermez/zkevm-node/test/contracts/bin/uniswap/v2/periphery/UniswapV2Router02"
 	"github.com/hoaleee/go-ethereum/accounts/abi/bind"
 	"github.com/hoaleee/go-ethereum/common"
 	"github.com/hoaleee/go-ethereum/ethclient"
+	"github.com/hoaleee/zkevm-node/log"
+	"github.com/hoaleee/zkevm-node/test/contracts/bin/uniswap/v2/core/UniswapV2Factory"
+	"github.com/hoaleee/zkevm-node/test/contracts/bin/uniswap/v2/core/UniswapV2Pair"
+	"github.com/hoaleee/zkevm-node/test/contracts/bin/uniswap/v2/periphery/UniswapV2Router02"
 )
 
 func SwapTokens(client *ethclient.Client, auth *bind.TransactOpts, deployments Deployments) []*types.Transaction {

@@ -2,8 +2,8 @@ package sequencesender
 
 import (
 	"context"
-	"github.com/0xPolygonHermez/zkevm-node/etherman/types"
-	"github.com/0xPolygonHermez/zkevm-node/log"
+	"github.com/hoaleee/zkevm-node/etherman/types"
+	"github.com/hoaleee/zkevm-node/log"
 	"github.com/rollkit/go-da"
 	"time"
 )

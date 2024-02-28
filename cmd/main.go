@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/0xPolygonHermez/zkevm-node"
-	"github.com/0xPolygonHermez/zkevm-node/config"
-	"github.com/0xPolygonHermez/zkevm-node/jsonrpc"
-	"github.com/0xPolygonHermez/zkevm-node/log"
+	"github.com/hoaleee/zkevm-node"
+	"github.com/hoaleee/zkevm-node/config"
+	"github.com/hoaleee/zkevm-node/jsonrpc"
+	"github.com/hoaleee/zkevm-node/log"
 	"github.com/urfave/cli/v2"
 )
 
