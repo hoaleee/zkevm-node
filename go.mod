@@ -111,7 +111,7 @@ require (
 	github.com/markbates/oncer v1.0.0 // indirect
 	github.com/markbates/safe v1.0.1 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
-	github.com/mattn/go-isatty v0.0.19 // indirect
+	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/mattn/go-runewidth v0.0.13 // indirect
 	github.com/matttproud/golang_protobuf_extensions/v2 v2.0.0 // indirect
 	github.com/miguelmota/go-solidity-sha3 v0.1.1 // indirect
@@ -171,7 +171,7 @@ require (
 require (
 	github.com/0xPolygon/cdk-data-availability v0.0.3
 	github.com/ethereum/go-ethereum v1.13.2
-	github.com/fatih/color v1.15.0
+	github.com/fatih/color v1.16.0
 	github.com/hoaleee/go-ethereum v1.12.5
 	github.com/joho/godotenv v1.5.1
 	github.com/prometheus/client_golang v1.17.0
