@@ -506,3 +506,27 @@ services:
       - "postgres"
       - "-N"
       - "500"
+  zkevm-explorer:
+    container_name: zkevm-explorer
+    image: gamefiorg/zkevm-explorer:latest
+    extra_hosts:
+      - 'host.docker.internal:host-gateway'
+    ports:
+      - 4001:4000
+    environment:
+      - NETWORK=Concha
+      - SUBNETWORK=Concha Testnet
+      - COIN=ETH
+      - ETHEREUM_JSONRPC_VARIANT=geth
+      - ETHEREUM_JSONRPC_HTTP_URL=http://zkevm-explorer-json-rpc:8124
+      - DATABASE_URL=postgres://l2_explorer_user:l2_explorer_password@zkevm-explorer-l2-db:5432/l2_explorer_db
+      - ECTO_USE_SSL=false
+      - MIX_ENV=prod
+      - LOGO=/images/concha-logo.png
+      - LOGO_FOOTER=/images/concha-logo.png
+    env_file:
+      - ./config/common-blockscout.env
+    command:
+      - "/bin/sh"
+      - "-c"
+      - "bin/blockscout eval \"Elixir.Explorer.ReleaseTasks.create_and_migrate()\" && bin/blockscout start"

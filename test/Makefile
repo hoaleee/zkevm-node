@@ -12,7 +12,7 @@ DOCKERCOMPOSEEVENTDB := zkevm-event-db
 DOCKERCOMPOSENETWORK := zkevm-mock-l1-network
 DOCKERCOMPOSEEXPLORERL1 := zkevm-explorer-l1
 DOCKERCOMPOSEEXPLORERL1DB := zkevm-explorer-l1-db
-DOCKERCOMPOSEEXPLORERL2 := zkevm-explorer-l2
+DOCKERCOMPOSEEXPLORERL2 := zkevm-explorer
 DOCKERCOMPOSEEXPLORERL2DB := zkevm-explorer-l2-db
 DOCKERCOMPOSEEXPLORERRPC := zkevm-explorer-json-rpc
 DOCKERCOMPOSEZKPROVER := zkevm-prover
@@ -364,7 +364,7 @@ stop-l2-explorer-json-rpc: ## Stops L2 explorer json rpc
 	$(STOPEXPLORERJSONRPC)
 
 .PHONY: run-explorer
-run-explorer: run-l1-explorer run-l2-explorer ## Runs both L1 and L2 explorers
+run-explorer: run-l2-explorer ## Runs both L1 and L2 explorers
 
 .PHONY: stop-explorer
 stop-explorer: ## Stops the explorer

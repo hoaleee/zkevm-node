@@ -172,7 +172,7 @@ require (
 	github.com/0xPolygon/cdk-data-availability v0.0.3
 	github.com/ethereum/go-ethereum v1.13.2
 	github.com/fatih/color v1.15.0
-	github.com/hoaleee/go-ethereum v1.12.4
+	github.com/hoaleee/go-ethereum v1.12.5
 	github.com/joho/godotenv v1.5.1
 	github.com/prometheus/client_golang v1.17.0
 	github.com/rollkit/go-da v0.4.0
